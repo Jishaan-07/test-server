@@ -2,7 +2,7 @@ const users = require('../models/userModel')
 const jwt = require('jsonwebtoken')
 const bcrypt = require('bcrypt');
 
-// register JWTPASSWORD=jishan
+// register
 exports.registerController = async (req, res) => {
     console.log("Inside registerController");
     const { username, email, password } = req.body;
